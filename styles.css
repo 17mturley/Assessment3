@@ -1,0 +1,81 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+	margin-right: 20px;
+
+}
+
+.image-container {
+	display: flex;
+	align-items: center;
+}
+ul {
+	flex: 1;
+}
+.ps-and-cs {
+	display: flex;
+}
+.list {
+	margin-right: 20px;
+}
+.votes-and-buttons {
+	display: flex;
+}
+.buttons {
+	margin-left: 200px;
+}
+.button{	
+	font-size: 30px;
+	padding: 10px 40px;
+	background-color: yellow;
+	border: none;
+	border-radius: 5px;
+}
+.button:hover {
+	background-color: gold;
+}
+.checkbox-container {
+	background-color: orange;
+	font-size: 30px;
+	padding: 10px 20px;
+	box-sizing: 20px;
+	display: flex;
+	align-items: center;
+}
+.checkbox-container input[type='checkbox'] {
+	margin-right: 20px;
+}
